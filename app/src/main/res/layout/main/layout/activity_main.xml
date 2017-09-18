@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.fragmentdemo.MainActivity">
+    tools:context="com.demo.fragmentdemo.First.MainActivity">
 
     <fragment
         android:id="@+id/left_fragment" android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
-        android:name="com.demo.fragmentdemo.LeftFragment"/>
+        android:name="com.demo.fragmentdemo.First.LeftFragment"/>
 
     <FrameLayout
         android:id="@+id/right_layout"
